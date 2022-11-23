@@ -143,16 +143,16 @@ nav,
   transition: all 400ms 200ms;
 }
 
-.dark-theme .title, 
+.dark-theme .title,
 .dark-theme .section__title,
-.dark-theme .section__sub-title, 
+.dark-theme .section__sub-title,
 .dark-theme .nav__link--anchor,
 .dark-theme .fa-circle-half-stroke,
-.dark-theme .header__para{
+.dark-theme .header__para {
   color: white;
 }
 
-.dark-theme section{
+.dark-theme section {
   background-color: #242424;
 }
 
@@ -163,9 +163,9 @@ nav,
 .dark-theme .scroll__icon {
   border-color: white;
 }
-.dark-theme .scroll__icon::after, 
-.dark-theme .link__hover-effect--black:after{
-  background-color:white;
+.dark-theme .scroll__icon::after,
+.dark-theme .link__hover-effect--black:after {
+  background-color: white;
 }
 
 .dark-theme .mail__btn {
@@ -599,4 +599,57 @@ footer {
 .footer__social--link,
 .footer__copyright {
   color: white;
+}
+
+/*
+
+  SHAPES
+
+  first row > height = 15vh
+  second row > height = 50vh
+  third row > height 80vh
+
+  first column > width = 5vw
+  second column > width = 50vw
+  third column > width 80vw
+
+*/
+.shape {
+  position: fixed;
+}
+.shape--0 {
+  top: 15vh;
+  left: 5vw;
+}
+.shape--1 {
+  top: 15vh;
+  left: 50vw;
+}
+.shape--2 {
+  top: 15vh;
+  left: 80vw;
+}
+.shape--3 {
+  top: 50vh;
+  left: 5vw;
+}
+.shape--4 {
+  top: 50vh;
+  left: 50vw;
+}
+.shape--5 {
+  top: 50vh;
+  left: 80vw;
+}
+.shape--6 {
+  top: 80vh;
+  left: 5vw;
+}
+.shape--7 {
+  top: 80vh;
+  left: 50vw;
+}
+.shape--8 {
+  top: 80vh;
+  left: 80vw;
 }
